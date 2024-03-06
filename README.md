@@ -26,3 +26,6 @@ Add Static IP Address
     https://portchecker.co/
 Inbound Rules - Port
     New Rule -> Port -> TCP, Specific local ports: 443 -> Allow the connection -> check all: Domain, private, public -> Name and Description
+
+
+https://www.namecheap.com/support/knowledgebase/article.aspx/9640/69/how-to-export-certificates-between-windows-servers/
