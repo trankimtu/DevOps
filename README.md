@@ -22,5 +22,7 @@ Add Static IP Address
     Control Panel\All Control Panel Items\Network and Sharing Center -> Local Area Connection -> Property -> Internet Protocol Version 4 (TCP/IPV4) -> Advanced -> Add
     IP
     Subnet mask
+    Check port open or closed - if it's closed, contact firewall open it
+    https://portchecker.co/
 Inbound Rules - Port
     New Rule -> Port -> TCP, Specific local ports: 443 -> Allow the connection -> check all: Domain, private, public -> Name and Description
