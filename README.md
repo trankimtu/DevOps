@@ -1,12 +1,21 @@
 # DevOps - IIS
 
-IIS Manager
-Add Website
-  Site name
-  Physical path:
-  http/https - IP Address - Port
-  Run Hello World! project
-Add PHP mappings
+## IIS Manager
+### Add Website
+  <ul>
+    <li> Site name </li>
+    <li> Physical path: </li>
+    <li> http/https - IP Address - Port </li>
+  </ul>
+  
+  
+ 
+### Run Hello World! project
+  <ul>
+    <li> index.html </li>
+    <li> index.php </li>
+  </ul>
+### Add PHP mappings
     https://windows.php.net/download/
     Download zip file - Extract and Copy to C:\Program Files
     
@@ -18,13 +27,13 @@ Add PHP mappings
     IIS - Default Document -> Add
     Name: index.php
     Move to top
-Add Static IP Address
+## Add Static IP Address
     Control Panel\All Control Panel Items\Network and Sharing Center -> Local Area Connection -> Property -> Internet Protocol Version 4 (TCP/IPV4) -> Advanced -> Add
     IP
     Subnet mask
     Check port open or closed - if it's closed, contact firewall open it
     https://portchecker.co/
-Inbound Rules - Port
+## Inbound Rules - Port
     New Rule -> Port -> TCP, Specific local ports: 443 -> Allow the connection -> check all: Domain, private, public -> Name and Description
 
 
