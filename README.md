@@ -20,7 +20,9 @@
 
     Download zip file - Extract and Copy to C:\Program Files
     https://windows.php.net/download/
+    
     <br>
+    
     IIS - Handler Mappings -> Add Module Mapping
   <ul>
     <li> Request path: *.php </li>
