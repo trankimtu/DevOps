@@ -15,23 +15,40 @@
     <li> index.html </li>
     <li> index.php </li>
   </ul>
+  
 ### Add PHP mappings
-    https://windows.php.net/download/
+
     Download zip file - Extract and Copy to C:\Program Files
-    
+    https://windows.php.net/download/
+    <br>
     IIS - Handler Mappings -> Add Module Mapping
-    Request path: *.php
-    Module: FastCgiModule
-    Executable: C:\Program Files\PHP\php-cgi.exe
+  <ul>
+    <li> Request path: *.php </li>
+    <li> Module: FastCgiModule </li>
+    <li> Executable: C:\Program Files\PHP\php-cgi.exe </li>
+  </ul>
+    
+    <br>
+    
+    
 
     IIS - Default Document -> Add
-    Name: index.php
-    Move to top
+    <ul>
+      <li> Name: index.php </li>
+      <li> Move to top </li>
+    </ul>
+    
+    
 ## Add Static IP Address
+
     Control Panel\All Control Panel Items\Network and Sharing Center -> Local Area Connection -> Property -> Internet Protocol Version 4 (TCP/IPV4) -> Advanced -> Add
-    IP
-    Subnet mask
-    Check port open or closed - if it's closed, contact firewall open it
+    <ul>
+      <li> IP </li>
+      <li> Subnet mask </li>
+    </ul>  
+    
+    
+    Check port open or closed - if it's closed, contact firewall open it <br>
     https://portchecker.co/
 ## Inbound Rules - Port
     New Rule -> Port -> TCP, Specific local ports: 443 -> Allow the connection -> check all: Domain, private, public -> Name and Description
