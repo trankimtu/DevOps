@@ -1,10 +1,10 @@
-# Config URL Rewrite
-## Check OS architecture
+# A. Config URL Rewrite
+## I. Check OS architecture
 Open cmd
 ```
 wmic os get osarchitecture
 ```
-## Install IIS URL Rewrite Module
+## II. Install IIS URL Rewrite Module
 <ul>
   <li>Google url rewrite download</li>
   <li>1st link: https://www.iis.net/downloads/microsoft/url-rewrite</li>
@@ -22,22 +22,22 @@ wmic os get osarchitecture
 
 
 
-# IIS
-## Add Website
+# B. IIS
+## I. Add Website
 Site name, Physical path, ip, port, host name
-## Application Pools
+## II. Application Pools
 Right click mySite --> Basic Settings
 Under .NET CLR version: No Managed Code
 Angular does not need .NET framework run on the background, remove this will improve performance
 
-# Angular Project
-## File angular.json
+# C. Angular Project
+## I. File angular.json
 Under projects --> mySite --> architect --> build --> options --> assets <br>
 add "src/web.config"
 
 
 
-## File web.config
+## II. File web.config
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
@@ -60,7 +60,7 @@ add "src/web.config"
 </configuration>
 ```
 
-## Build the project
+## III. Build the project
 ```
 ng build
 ```
