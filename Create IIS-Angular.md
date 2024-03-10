@@ -26,8 +26,9 @@ wmic os get osarchitecture
 ## I. Add Website
 Site name, Physical path, ip, port, host name
 ## II. Application Pools
-Right click mySite --> Basic Settings
-Under .NET CLR version: No Managed Code
+<p>Right click mySite --> Basic Settings</p>
+<p>Under .NET CLR version: No Managed Code</p>
+Note:<br>
 Angular does not need .NET framework run on the background, remove this will improve performance
 
 # C. Angular Project
