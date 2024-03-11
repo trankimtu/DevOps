@@ -93,12 +93,17 @@ Open cmd
 wmic os get osarchitecture
 ```
 ## Install IIS URL Rewrite Module
-Google url rewrite download
-1st link: https://www.iis.net/downloads/microsoft/url-rewrite
-Download URL Rewrite Module
-Click on x64 installer
-Install the file on server
-Restart IIS manager ( close and reopen)
+<ul>
+  <li>Google url rewrite download</li>
+  <li>1st link: https://www.iis.net/downloads/microsoft/url-rewrite</li>
+  <li>Download URL Rewrite Module --> Click on x64 installer</li>
+  <li>Install the file on server</li>
+  <li>Restart IIS manager ( close and reopen)</li>
+</ul>
+
+
+
+
 
 
 
