@@ -1,44 +1,19 @@
-# A. Config URL Rewrite
-## I. Check OS architecture
-Open cmd
-```
-wmic os get osarchitecture
-```
-## II. Install IIS URL Rewrite Module
-<ul>
-  <li>Google url rewrite download</li>
-  <li>1st link: https://www.iis.net/downloads/microsoft/url-rewrite</li>
-  <li>Download URL Rewrite Module</li>
-  <li>Click on x64 installer</li>
-  <li>Install the file on server</li>
-  <li>Restart IIS manager ( close and reopen)</li>
-  <li>Restart the Website</li>
-</ul>
- 
-
-
-
-
-
-
-
-# B. IIS
-## I. Add Website
+# IIS
+## Add Website
 Site name, Physical path, ip, port, host name
-## II. Application Pools
-<p>Right click mySite --> Basic Settings</p>
-<p>Under .NET CLR version: No Managed Code</p>
-Note:<br>
+## Application Pools
+Right click mySite --> Basic Settings
+Under .NET CLR version: No Managed Code
 Angular does not need .NET framework run on the background, remove this will improve performance
 
-# C. Angular Project
-## I. File angular.json
+# Angular Project
+## File angular.json
 Under projects --> mySite --> architect --> build --> options --> assets <br>
 add "src/web.config"
 
 
 
-## II. File web.config
+## File web.config
 ```
 <?xml version="1.0" encoding="utf-8"?>
 <configuration>
@@ -61,7 +36,7 @@ add "src/web.config"
 </configuration>
 ```
 
-## III. Build the project
+## Build the project
 ```
 ng build
 ```
@@ -111,7 +86,19 @@ To
 },
 ```
 
-
+# Config URL Rewrite
+## Check OS architecture
+Open cmd
+```
+wmic os get osarchitecture
+```
+## Install IIS URL Rewrite Module
+Google url rewrite download
+1st link: https://www.iis.net/downloads/microsoft/url-rewrite
+Download URL Rewrite Module
+Click on x64 installer
+Install the file on server
+Restart IIS manager ( close and reopen)
 
 
 
