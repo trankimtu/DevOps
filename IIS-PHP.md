@@ -2,7 +2,7 @@
 
 ## Instalation
 [Download and install Microsoft Virtual C++](https://learn.microsoft.com/en-us/cpp/windows/)
-
+Download PHP non-thread version, extract to C:/PHP
 ## IIS Manager
 ### Add Website
   <ul>
