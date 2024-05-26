@@ -2,7 +2,9 @@
 
 ## Instalation
 [Download and install Microsoft Virtual C++](https://learn.microsoft.com/en-us/cpp/windows/)<br>
-Download PHP non-thread version, extract to C:/PHP
+Download PHP non-thread version, extract to C:/PHP<br>
+Edit the system environment variables > Under system variables > Path > Edit > New > Browse to c:\PHP <br>
+Install CGI > Add roles and Features > Server Roles > Web Server (IIS) > Web Server > Application Development > Check CGI
 ## IIS Manager
 ### Add Website
   <ul>
@@ -32,10 +34,7 @@ Download PHP non-thread version, extract to C:/PHP
     <li> Module: FastCgiModule </li>
     <li> Executable: C:\Program Files\PHP\php-cgi.exe </li>
   </ul>
-    if FastCgiModule is missing, install FastCGI from "Add Roles and Feature" > Features >
-    <br>
-    
-    
+
 
     IIS - Default Document -> Add
     <ul>
