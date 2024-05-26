@@ -18,7 +18,7 @@
   
 ### Add PHP mappings
 
-    Download zip file - Extract and Copy to C:\Program Files
+    Download zip file Thread Safe - Extract and Copy to C:\Program Files
     https://windows.php.net/download/
     
     <br>
