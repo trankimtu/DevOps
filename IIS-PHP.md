@@ -1,5 +1,8 @@
 # DevOps - IIS
 
+## Instalation
+[Download and install Microsoft Virtual C++] (https://learn.microsoft.com/en-us/cpp/windows/)
+
 ## IIS Manager
 ### Add Website
   <ul>
@@ -29,7 +32,7 @@
     <li> Module: FastCgiModule </li>
     <li> Executable: C:\Program Files\PHP\php-cgi.exe </li>
   </ul>
-    
+    if FastCgiModule is missing, install FastCGI from "Add Roles and Feature" > Features >
     <br>
     
     
