@@ -1,0 +1,14 @@
+Using PHPMailer with Composer
+
+Download and install composer
+https://getcomposer.org/
+Create Projects: Create your PHP projects (project1, project2, etc.) in separate directories as usual.
+
+Run Composer Once: For each project, navigate to the project directory (cd path/to/project1, cd path/to/project2, etc.) and run composer require phpmailer/phpmailer once in each project directory.
+install 7-zip and git
+```
+composer require phpmailer/phpmailer
+```
+```
+choco install unzip
+```
