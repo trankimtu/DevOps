@@ -1,4 +1,11 @@
+
+
+
 IIS 6.0 Manager
+Access
+  Authentication: Anonymous
+  Connection: All except the list below (empty list: allow all)
+  Relay Restriction: All except the list below (empty list: allow all)
 Telnet
 ```
 telnet smtp.example.com 587
