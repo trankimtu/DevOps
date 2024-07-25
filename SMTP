@@ -1,0 +1,21 @@
+IIS 6.0 Manager
+Telnet
+```
+telnet smtp.example.com 587
+EHLO your_domain.com
+MAIL FROM: <your_email@example.com>
+RCPT TO: <recipient_email@example.com>
+DATA
+Subject: Test Email
+From: Your Name <your_email@example.com>
+To: Recipient Name <recipient_email@example.com>
+
+Hello,
+
+This is a test email sent via Telnet.
+
+Regards,
+Your Name
+.
+
+```
