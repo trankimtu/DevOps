@@ -54,7 +54,7 @@ Install CGI > Add roles and Features > Server Roles > Web Server (IIS) > Web Ser
     
     Check port open or closed - if it's closed, contact firewall open it <br>
     https://portchecker.co/
-## Inbound Rules - Port
+## Inbound and Outbound Rules - Port
     New Rule -> Port -> TCP, Specific local ports: 443 -> Allow the connection -> check all: Domain, private, public -> Name and Description
 
 
